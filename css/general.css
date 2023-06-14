@@ -1,0 +1,160 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px): 
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
+
+- Line heights
+  Default: 1
+  Small: 1.05
+  Medium: 1.2
+  Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #010740 (header: #19559D)
+- Tints: 
+#e6e6ec
+#cccdd9
+#8caace
+#67adf9
+#528ac7
+#999cb3
+#4d5179
+#343966
+#6d47b1
+#4c327c
+
+- Shades:
+
+#1a2053
+#000213
+#01063a
+
+- Accents:
+- Greys:
+
+#888
+#767676 (lightest grey allowed on #fff
+#6f6f6f (lightest grey allowed on #fdf2e9)
+  #555
+  #333
+
+--- 03 SHADOWS
+
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 04 BORDER RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 05 WHITESPACE
+- Spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #cccdd9;
+} */
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  font-family: "EXO", "RUBIK", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*********************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*********************************/
+
+.container {
+  max-width: 120rem;
+  padding: 6.4rem 6.4rem 0 6.4rem;
+  margin: 0 auto;
+  padding-bottom: 6.4rem;
+}
+
+.general-heading h2 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: #e6e6ec;
+}
+
+.general-heading h2 span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #67adf9;
+}
+
+.general-heading span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #e6e6ec;
+  /* grid-column: 2 / 4; */
+}
+
+.card-box {
+  display: grid;
+  gap: 4.8rem;
+  margin-top: 4.8rem;
+}
+
+.btn {
+  border-radius: 11px;
+  padding: 1.2rem 1.6rem;
+  border: none;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.grid--2-rows {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid--3-rows {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid--4-rows {
+  grid-template-rows: repeat(4, 1fr);
+}
