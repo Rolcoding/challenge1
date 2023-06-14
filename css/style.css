@@ -634,7 +634,7 @@ p {
   border: none;
 } */
 
-#date,
+/* #date,
 #date:focus {
   max-height: 22px;
   font-size: 1.6rem;
@@ -643,7 +643,7 @@ p {
 
 #date:focus {
   max-height: 10px;
-}
+} */
 
 /* #date--1:active {
   border: none;
