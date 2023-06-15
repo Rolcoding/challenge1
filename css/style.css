@@ -578,8 +578,7 @@ p {
   margin: 2.4rem 9.6rem 2.4rem 4.8rem;
 }
 
-.cta-form input,
-.cta-form select {
+.cta-form input {
   font-size: 1.6rem;
   background-color: #010740;
   width: 100%;
@@ -602,6 +601,10 @@ p {
   color: #999cb3;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
 .name,
 .email,
 .phone {
@@ -614,7 +617,7 @@ p {
 }
 
 #date,
-#select-time {
+#time {
   padding: 15px;
   border-radius: 11px;
   height: 100%;
@@ -629,33 +632,15 @@ p {
   border: none;
 }
 
-/* input:focus-visible {
-  outline: none;
-  border: none;
-} */
-
-/* #date,
-#date:focus {
-  max-height: 22px;
+#date,
+#time,
+#date:focus,
+#time:focus {
+  max-height: 27px;
   font-size: 1.6rem;
-  padding: 2.4rem 1.6rem;
+  padding: 2.6rem 1.6rem;
+  cursor: pointer;
 }
-
-#date:focus {
-  max-height: 10px;
-} */
-
-/* #date--1:active {
-  border: none;
-  outline: none;
-}
-
-#date--1:focus {
-  max-height: 20px;
-  max-width: 1400px;
-  border: none;
-  outline: none;
-} */
 
 #date {
   background: #010740
@@ -665,7 +650,13 @@ p {
   font-family: inherit;
 }
 
-#select-time {
+::-webkit-calendar-picker-indicator {
+  padding: 1.1rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#time {
   background: #010740
     url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iIzk5OWNiMyIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm01NiwxMTJIMTI4YTgsOCwwLDAsMS04LThWNzJhOCw4LDAsMCwxLDE2LDB2NDhoNDhhOCw4LDAsMCwxLDAsMTZaIj48L3BhdGg+PC9zdmc+")
     no-repeat;
