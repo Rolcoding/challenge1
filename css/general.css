@@ -88,15 +88,34 @@ body {
   color: #555;
 }
 
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1a2053;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19559d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #14447e;
+}
+
 /*********************************/
 /* GENERAL REUSABLE COMPONENTS */
 /*********************************/
 
 .container {
   max-width: 120rem;
-  padding: 6.4rem 6.4rem 0 6.4rem;
+  padding: 3.2rem 6.4rem;
   margin: 0 auto;
-  padding-bottom: 6.4rem;
 }
 
 .general-heading h2 {
@@ -141,6 +160,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--6-cols {

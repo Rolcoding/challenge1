@@ -33,7 +33,7 @@
   <body>
     <header class="header">
       <a href="#">
-        <img src="img/clearvision-logo-eficode.png" class="logo" />
+        <img src="img/clearvision-logo-eficode.png" class="logo logo--1" />
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -425,9 +425,14 @@
                   />
                 </div>
                 <div class="time">
-                  <select id="select-time" required>
-                    <option value="#">Pick a time</option>
-                  </select>
+                  <input
+                    placeholder="Pick a time"
+                    id="time"
+                    type="text"
+                    onfocus="(this.type='time')"
+                    onblur="(this.type='text')"
+                    required
+                  />
                 </div>
               </form>
               <div class="checkbox-container">
@@ -442,19 +447,42 @@
           </div>
         </div>
       </section>
-      <!-- 
-      <div class="date-box--1">
-        <input
-          placeholder="Select a date"
-          id="date--1"
-          type="text"
-          onfocus="(this.type='date')"
-          onblur="(this.type='text')"
-          required
-        />
-      -->
       </div>
-      <footer></footer>
     </main>
+    <footer class="footer">
+      <div class="container container--footer grid--2-cols grid--2-rows">
+      <a href="#">
+        <img src="img/clearvision-logo-eficode.png" class="logo logo--2" />
+      </a>
+      <nav class="footer-nav--1">
+        <ul class="footer-nav-list">
+          <li><a class="footer-nav-link" href="#">About us</a></li>
+          <li><a class="footer-nav-link" href="#">How it works</a></li>
+          <li><a class="footer-nav-link" href="#">Services</a></li>
+          <li><a class="footer-nav-link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav--2">
+        <ul class="footer-nav-list">
+          <li><a class="footer-nav-link" href="#">+1 (478) 123 1234</a></li>
+          <li><a class="footer-nav-link" href="#">info@clearvision.io</a></li>
+          <li><a class="footer-nav-link" href="#">Denison Street, Unit 21, Markham</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div class="container container--rights">
+      <div class="footer--rights">
+        <span>&copy;ClearVisionAnalytics. All rights reserved</span>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="container-builder">
+        <div class="builder-box">
+        <span id="builder">Made by &nbsp;</span>
+        <a href="https://www.rolcoding.eu"><img class="img-builder" src="img/logo5.png" /></a>
+        </div>
+      </div>
+      </div>
+    </footer>
   </body>
 </html>
