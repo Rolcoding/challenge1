@@ -148,6 +148,14 @@ body {
   border-radius: 11px;
   padding: 1.2rem 1.6rem;
   border: none;
+  transition: all 0.3s;
+}
+
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active {
+  transition: all 0.3s;
 }
 
 .grid--2-cols {

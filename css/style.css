@@ -809,6 +809,10 @@ input:focus::placeholder {
   justify-content: center;
 }
 
+#builder {
+  color: #999cb3;
+}
+
 .img-builder {
   height: 1.8rem;
   text-align: center;
