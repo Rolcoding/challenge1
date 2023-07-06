@@ -14,7 +14,7 @@
     font-size: 40.5%;
   }
   .hero-img {
-    height: 20rem;
+    height: 25rem;
     margin: 0 auto;
   }
 }
@@ -23,16 +23,7 @@
   html {
     font-size: 30%;
   }
-}
-
-@media (max-width: 30em) {
-  html {
-    font-size: 20%;
-  }
-}
-
-@media (max-width: 15em) {
-  html {
-    font-size: 10%;
+  .hero-img {
+    height: 20rem;
   }
 }
