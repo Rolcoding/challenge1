@@ -93,6 +93,7 @@
 .section-hero {
   /* height: 100vh; */
   background-image: linear-gradient(to right top, #19559d, #010740);
+  background-size: cover;
   padding-bottom: 24rem;
 }
 
