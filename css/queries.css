@@ -2,7 +2,12 @@
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
+    .hero-img {
+      height: 30rem;
+      margin: 0 auto;
+    }
   }
+}
 
 @media (max-width: 60em) {
   html {
@@ -12,13 +17,13 @@
 
 @media (max-width: 44em) {
   html {
-    font-size: 20%;
+    font-size: 30%;
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 30em) {
   html {
-    font-size: 15%;
+    font-size: 20%;
   }
 }
 
