@@ -10,12 +10,10 @@
     gap: 2.4rem;
     display: none;
   }
+  /*
   .hero-img {
     height: 30rem;
-  }
-}
-
-@media (max-width: 44em) {
+  }*/
   .hero {
     display: block;
   }
@@ -36,6 +34,9 @@
     height: 25rem;
     margin: 3rem auto;
   }
+}
+
+@media (max-width: 44em) {
   .grid--3-cols {
     grid-template-columns: repeat(2, 1fr);
   }
