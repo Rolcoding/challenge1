@@ -8,7 +8,7 @@
 
 @media (max-width: 61.25em) {
   html {
-    width: 100%;
+    width: 100vh;
   }
   .main-nav-list {
     gap: 2.4rem;
