@@ -6,6 +6,7 @@
 }
 
 @media (max-width: 61.25em) {
+  font-size: 40%;
   .main-nav-list {
     gap: 2.4rem;
     display: none;
