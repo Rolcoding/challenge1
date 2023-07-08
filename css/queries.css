@@ -6,6 +6,9 @@
 }
 
 @media (max-width: 61.25em) {
+  html {
+    width: 100%;
+  }
   .main-nav-list {
     gap: 2.4rem;
     display: none;
