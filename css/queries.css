@@ -33,7 +33,7 @@
     margin: 0 auto;
   }
   .hero-img {
-    display: none;
+    display: block;
     height: 25rem;
     margin: 3rem auto;
   }
