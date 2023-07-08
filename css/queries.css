@@ -1,9 +1,7 @@
 @media (max-width: 75em) {
   html {
     /* 9px / 16px  */
-    /*font-size: 56.25%;*/
     font-size: 56.25%;
-    width: 100%;
   }
 }
 
