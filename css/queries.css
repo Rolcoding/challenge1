@@ -1,7 +1,8 @@
 @media (max-width: 75em) {
   html {
     /* 9px / 16px  */
-    font-size: 56.25%;
+    /*font-size: 56.25%;*/
+    font-size: 65%;
   }
 }
 
@@ -19,6 +20,7 @@
   }*/
   .hero {
     display: block;
+    padding-bottom: 0;
   }
   .main-heading h1,
   .main-heading span,
@@ -36,6 +38,44 @@
     display: block;
     height: 25rem;
     margin: 3rem auto;
+  }
+  /*
+  .about-price,
+  .about-deliver,
+  .about-methods {
+  }*/
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -24rem;
+  }
+  .about-box h3 {
+    background-position: bottom center;
+  }
+  .about-grid {
+    display: block;
+  }
+  .about-heading {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-our {
+    display: block;
+    margin: 0 auto;
+  }
+  .about-description {
+    display: block;
+    margin: 0 auto;
+  }
+  .about-records {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
   }
 }
 
