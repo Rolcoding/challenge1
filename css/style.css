@@ -503,16 +503,17 @@ p {
 
 .card--3--1 {
   border-top-right-radius: 20%;
+  position: relative;
 }
 
 .card--3--1-shdw::before {
   content: "";
   background: linear-gradient(to right bottom, #6d47b1, #195eb2);
   position: absolute;
-  height: 55%;
-  width: 25%;
-  top: 38%;
-  left: 68%;
+  height: 31rem;
+  width: 31rem;
+  top: 2rem;
+  right: -3rem;
   border-radius: 11px;
   border-top-right-radius: 30%;
   z-index: -1;
