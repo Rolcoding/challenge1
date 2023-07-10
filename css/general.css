@@ -70,6 +70,7 @@ Medium: 11px
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-position-x: 100%;
 }
 
 /* *:focus {
