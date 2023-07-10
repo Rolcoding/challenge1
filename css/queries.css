@@ -3,7 +3,7 @@
     /* 9px / 16px  */
     /* font-size: 56.25%; */
   }
-  body {
+  html, body {
     width: 100%;
     overflow-x: hidden;
   }  
