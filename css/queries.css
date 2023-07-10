@@ -11,6 +11,17 @@
   .footer-nav-list {
     gap: 2.4rem;
   }
+  .grid-how-heading {
+    grid-template-columns: 1fr 2.3fr repeat(3, 1fr);
+  }
+  .how-it-heading {
+    /* align-items: flex-start; */
+    align-items: start;
+  }
+  .how-it-heading h2 {
+    /* margin-bottom: 2.4rem; */
+    margin: 0 2.4rem 1.6rem 0;
+  }
 }
 
 @media (max-width: 65em) {
@@ -63,7 +74,7 @@
   }
   .about-heading {
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
   }
   .about-img {
@@ -78,6 +89,7 @@
     margin: 0 auto;
   }
   .about-description-span span {
+    font-size: 1.4rem;
     margin: 2rem 0 4.8rem 0;
   }
   .about-records {
@@ -85,6 +97,20 @@
     margin: 0 auto;
   }
   .card-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .general-heading span {
+    font-size: 1.8rem;
+  }
+  /* .grid-how-heading {
+    grid-template-columns: 1.7fr 2.3fr repeat(2, 1fr);
+  } */
+  .grid-how-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-grid {
     display: flex;
     flex-direction: column;
   }
